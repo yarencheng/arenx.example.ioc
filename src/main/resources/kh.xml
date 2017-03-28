@@ -3,14 +3,14 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="somebodyHappyToTalk" class="Hans" />
-	<bean id="stockGodForCM" class="Kevin" />
+	<bean id="somebodyHappyToTalk" class="arenx.example.ioc.Hans" />
+	<bean id="stockGodForCM" class="arenx.example.ioc.Kevin" />
 	
-	<bean id="dave" class="Dave">
+	<bean id="dave" class="arenx.example.ioc.Dave">
 		<constructor-arg ref="somebodyHappyToTalk" />
 	</bean>
 	
-	<bean id="cm" class="CM">
+	<bean id="cm" class="arenx.example.ioc.CM">
 		<constructor-arg ref="somebodyHappyToTalk" />
 		<constructor-arg ref="stockGodForCM" />
 	</bean>
