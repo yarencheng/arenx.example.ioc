@@ -3,7 +3,7 @@ package arenx.example.ioc;
 public class Demo1 {
 
 	static class Hans{
-		public void talk(){ System.out.println("植物不會快樂"); }
+		public void talk(){ System.out.println("植物不會快樂");}
 	}
 	
 	static class Dave{
