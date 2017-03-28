@@ -28,7 +28,7 @@ public class Demo4 {
 		PepoleWhoReadAlot somebodyHappyToTalk;
 		
 		public Dave(PepoleWhoReadAlot somebodyHappyToTalk){
-			
+			this.somebodyHappyToTalk = somebodyHappyToTalk;	
 		}
 		
 		public void wantTalk(){  			
